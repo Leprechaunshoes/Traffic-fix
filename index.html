@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternate Route - Chicago 294/355 Traffic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>Alternate Route</h1>
+            <p>Beat 294-355 traffic with proven shortcuts</p>
+        </header>
+
+```
+    <main>
+        <form id="routeForm" class="route-form">
+            <div class="field">
+                <label>From</label>
+                <input type="text" id="from" placeholder="Starting location" required>
+            </div>
+            
+            <div class="field">
+                <label>To</label>
+                <input type="text" id="to" placeholder="Destination" required>
+            </div>
+            
+            <button type="submit" id="findBtn">Find Route</button>
+        </form>
+
+        <div id="result" class="result hidden">
+            <h3>Alternative Route</h3>
+            <div id="routeInfo"></div>
+        </div>
+
+        <div class="common-routes">
+            <h4>Common Routes</h4>
+            <button class="preset" data-route="ohare-downtown">O'Hare to Downtown</button>
+            <button class="preset" data-route="schaumburg-naperville">Schaumburg to Naperville</button>
+            <button class="preset" data-route="oakbrook-downtown">Oak Brook to Downtown</button>
+            <button class="preset" data-route="elmhurst-midway">Elmhurst to Midway</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Real Chicago traffic solutions</p>
+    </footer>
+</div>
+
+<script src="scripts.js"></script>
+```
+
+</body>
+</html>
