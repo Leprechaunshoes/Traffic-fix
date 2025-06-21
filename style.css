@@ -1,0 +1,184 @@
+- {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: system-ui, -apple-system, sans-serif;
+background: #1a1a1a;
+color: #fff;
+line-height: 1.5;
+}
+
+.app {
+max-width: 500px;
+margin: 0 auto;
+padding: 20px;
+min-height: 100vh;
+}
+
+header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+h1 {
+font-size: 2.5rem;
+color: #4285f4;
+margin-bottom: 10px;
+}
+
+header p {
+color: #ccc;
+font-size: 1.1rem;
+}
+
+.route-form {
+background: #2d3748;
+padding: 25px;
+border-radius: 10px;
+margin-bottom: 25px;
+}
+
+.field {
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+font-weight: 600;
+color: #e2e8f0;
+}
+
+input {
+width: 100%;
+padding: 15px;
+border: 2px solid #4a5568;
+border-radius: 8px;
+background: #1a202c;
+color: #fff;
+font-size: 16px;
+}
+
+input:focus {
+outline: none;
+border-color: #4285f4;
+}
+
+input::placeholder {
+color: #a0aec0;
+}
+
+#findBtn {
+width: 100%;
+padding: 15px;
+background: #4285f4;
+color: #fff;
+border: none;
+border-radius: 8px;
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+#findBtn:hover {
+background: #3367d6;
+}
+
+#findBtn:active {
+transform: translateY(1px);
+}
+
+.result {
+background: #2d3748;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 25px;
+border-left: 4px solid #4285f4;
+}
+
+.result h3 {
+color: #4285f4;
+margin-bottom: 15px;
+}
+
+#routeInfo {
+background: #1a202c;
+padding: 15px;
+border-radius: 6px;
+font-size: 14px;
+line-height: 1.6;
+}
+
+.time-info {
+background: #4285f4;
+color: #fff;
+padding: 8px 12px;
+border-radius: 4px;
+display: inline-block;
+margin-top: 10px;
+font-weight: 600;
+}
+
+.common-routes {
+background: #2d3748;
+padding: 20px;
+border-radius: 10px;
+}
+
+.common-routes h4 {
+color: #e2e8f0;
+margin-bottom: 15px;
+text-align: center;
+}
+
+.preset {
+width: 100%;
+padding: 12px;
+margin-bottom: 10px;
+background: #4a5568;
+color: #fff;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+.preset:hover {
+background: #718096;
+}
+
+.preset:last-child {
+margin-bottom: 0;
+}
+
+footer {
+text-align: center;
+margin-top: 30px;
+color: #718096;
+font-size: 14px;
+}
+
+.hidden {
+display: none;
+}
+
+@media (max-width: 480px) {
+.app {
+padding: 15px;
+}
+
+```
+h1 {
+    font-size: 2rem;
+}
+
+.route-form {
+    padding: 20px;
+}
+```
+
+}
