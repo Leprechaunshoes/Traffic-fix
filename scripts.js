@@ -64,7 +64,7 @@ if (route) {
         <p>• Surface streets like Roosevelt, Ogden, or North Ave</p>
         <p>• Route 53 or Route 83 as north-south alternatives</p>
     `;
-    resultsDiv.classList.remove('hidden');
+    resultsDiv.classList.remove('hidden'); 
 }
 ```
 
